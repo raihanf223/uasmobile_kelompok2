@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart';
-import 'dart:ui';
-import 'package:google_fonts/google_fonts.dart';
+// import 'package:flutter/gestures.dart';
+// import 'dart:ui';
+// import 'package:google_fonts/google_fonts.dart';
 import 'package:uasmobile_kelompok2/page-1/utils.dart';
 // import 'package:myapp/page-1/dashboard-desktop.dart';
 // import 'package:myapp/page-1/dashboard-pembeli-mobile.dart';
@@ -42,9 +42,24 @@ import 'package:uasmobile_kelompok2/page-1/register-mobile.dart';
 // import 'package:myapp/page-1/rectangle-39.dart';
 // import 'package:myapp/page-1/chat.dart';
 
-void main() => runApp(MyApp());
+import 'package:flutter_native_splash/flutter_native_splash.dart';
+// import 'package:flutter/scheduler.dart';
+
+void main() async {
+  //  munculkan splash screen
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  runApp(const MyApp());
+
+//beri waktu splash screen 2 detik
+  await Future.delayed(const Duration(seconds: 2));
+// hapus splash screen dengan function remove()
+  FlutterNativeSplash.remove();
+}
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
