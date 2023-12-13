@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter/gestures.dart';
-// import 'dart:ui';
 // import 'package:google_fonts/google_fonts.dart';
-import 'package:uasmobile_kelompok2/page-1/utils.dart';
+import 'package:uasmobile_kelompok2/utils.dart';
 
-class Scene extends StatelessWidget {
+class login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double baseWidth = 360;
@@ -13,7 +12,7 @@ class Scene extends StatelessWidget {
     return Container(
       width: double.infinity,
       child: Container(
-        // registermobiled1o (2:20)
+        // loginmobilefGy (1:3)
         width: double.infinity,
         decoration: BoxDecoration(
           color: Color(0xffffffff),
@@ -22,7 +21,7 @@ class Scene extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              // autogroupu5idYuT (UzztrxctLfwajMXCvZU5iD)
+              // autogroupxerzCXo (Uzzz7th8EeFjtoC9fZXErZ)
               margin: EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 9 * fem),
               padding:
                   EdgeInsets.fromLTRB(37 * fem, 22 * fem, 37 * fem, 22 * fem),
@@ -34,7 +33,7 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   Container(
-                    // pelangganbaruEnH (21:7)
+                    // pelangganbaruJKw (21:9)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 103 * fem, 0 * fem),
                     child: Text(
@@ -44,32 +43,31 @@ class Scene extends StatelessWidget {
                         fontSize: 12 * ffem,
                         fontWeight: FontWeight.w400,
                         height: 1.2125 * ffem / fem,
-                        decoration: TextDecoration.underline,
                         color: Color(0xffffffff),
-                        decorationColor: Color(0xffffffff),
                       ),
                     ),
                   ),
                   Text(
-                    // pelangganlamavf7 (21:8)
+                    // pelangganlamap3P (21:10)
                     'Pelanggan Lama',
                     style: SafeGoogleFont(
                       'Inter',
                       fontSize: 12 * ffem,
                       fontWeight: FontWeight.w400,
                       height: 1.2125 * ffem / fem,
+                      decoration: TextDecoration.underline,
                       color: Color(0xffffffff),
+                      decorationColor: Color(0xffffffff),
                     ),
                   ),
                 ],
               ),
             ),
             Container(
-              // buatakun4FX (34:97)
-              margin:
-                  EdgeInsets.fromLTRB(104 * fem, 0 * fem, 0 * fem, 18 * fem),
+              // masukkeakunandaYVB (16:6)
+              margin: EdgeInsets.fromLTRB(23 * fem, 0 * fem, 0 * fem, 18 * fem),
               child: Text(
-                'Buat akun',
+                'Masuk ke akun Anda',
                 style: SafeGoogleFont(
                   'Inter',
                   fontSize: 32 * ffem,
@@ -80,10 +78,10 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // namalengkapZxy (34:86)
+              // usernamerkm (34:105)
               margin: EdgeInsets.fromLTRB(12 * fem, 0 * fem, 0 * fem, 0 * fem),
               child: Text(
-                'Nama Lengkap',
+                'Username',
                 style: SafeGoogleFont(
                   'Inter',
                   fontSize: 12 * ffem,
@@ -94,7 +92,7 @@ class Scene extends StatelessWidget {
               ),
             ),
             Container(
-              // autogroup6gxotEZ (UzzuD2smjGD6irLLQh6GXo)
+              // autogroupbsuxyaV (UzzzP3vXtADyswEXgbBsuX)
               padding:
                   EdgeInsets.fromLTRB(12 * fem, 8 * fem, 12 * fem, 23 * fem),
               width: double.infinity,
@@ -102,7 +100,7 @@ class Scene extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Container(
-                    // rectangle5zHb (34:95)
+                    // rectangle5W4d (34:106)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 0 * fem, 18 * fem),
                     width: double.infinity,
@@ -113,85 +111,7 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // namadepanWWq (34:81)
-                    margin:
-                        EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem),
-                    child: Text(
-                      'Nama Depan',
-                      style: SafeGoogleFont(
-                        'Inter',
-                        fontSize: 12 * ffem,
-                        fontWeight: FontWeight.w400,
-                        height: 1.2125 * ffem / fem,
-                        color: Color(0xff2a032b),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    // rectangle62VB (34:96)
-                    margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 0 * fem, 18 * fem),
-                    width: double.infinity,
-                    height: 46 * fem,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Color(0xff2a032b)),
-                      color: Color(0xffffffff),
-                    ),
-                  ),
-                  Container(
-                    // emailxNq (34:108)
-                    margin:
-                        EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem),
-                    child: Text(
-                      'E-mail',
-                      style: SafeGoogleFont(
-                        'Inter',
-                        fontSize: 12 * ffem,
-                        fontWeight: FontWeight.w400,
-                        height: 1.2125 * ffem / fem,
-                        color: Color(0xff2a032b),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    // rectangle7sVo (34:89)
-                    margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 0 * fem, 18 * fem),
-                    width: double.infinity,
-                    height: 46 * fem,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Color(0xff2a032b)),
-                      color: Color(0xffffffff),
-                    ),
-                  ),
-                  Container(
-                    // usernameoPT (34:83)
-                    margin:
-                        EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem),
-                    child: Text(
-                      'Username',
-                      style: SafeGoogleFont(
-                        'Inter',
-                        fontSize: 12 * ffem,
-                        fontWeight: FontWeight.w400,
-                        height: 1.2125 * ffem / fem,
-                        color: Color(0xff2a032b),
-                      ),
-                    ),
-                  ),
-                  Container(
-                    // rectangle10hjj (34:90)
-                    margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 0 * fem, 18 * fem),
-                    width: double.infinity,
-                    height: 46 * fem,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Color(0xff2a032b)),
-                      color: Color(0xffffffff),
-                    ),
-                  ),
-                  Container(
-                    // katasandiqb3 (34:84)
+                    // katasandiSDB (34:104)
                     margin:
                         EdgeInsets.fromLTRB(0 * fem, 0 * fem, 0 * fem, 8 * fem),
                     child: Text(
@@ -206,9 +126,9 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // rectangle9mDo (34:91)
+                    // rectangle6mFT (34:107)
                     margin: EdgeInsets.fromLTRB(
-                        0 * fem, 0 * fem, 0 * fem, 69 * fem),
+                        0 * fem, 0 * fem, 0 * fem, 18 * fem),
                     width: double.infinity,
                     height: 46 * fem,
                     decoration: BoxDecoration(
@@ -217,7 +137,24 @@ class Scene extends StatelessWidget {
                     ),
                   ),
                   Container(
-                    // autogroupkzahHxq (Uzzu1HiLiZTr4e3qEyKzaH)
+                    // lupakatasandiHzV (34:109)
+                    margin: EdgeInsets.fromLTRB(
+                        0 * fem, 0 * fem, 0 * fem, 120 * fem),
+                    child: Text(
+                      'Lupa Kata Sandi?',
+                      style: SafeGoogleFont(
+                        'Inter',
+                        fontSize: 12 * ffem,
+                        fontWeight: FontWeight.w400,
+                        height: 1.2125 * ffem / fem,
+                        decoration: TextDecoration.underline,
+                        color: Color(0xff2a032b),
+                        decorationColor: Color(0xff2a032b),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    // autogroup4mavQZK (UzzzGUHATud41KZFkc4MAV)
                     margin: EdgeInsets.fromLTRB(
                         71 * fem, 0 * fem, 71 * fem, 0 * fem),
                     width: double.infinity,
@@ -227,7 +164,7 @@ class Scene extends StatelessWidget {
                     ),
                     child: Center(
                       child: Text(
-                        'KONFIRMASI DAN LANJUTKAN',
+                        'MASUK',
                         style: SafeGoogleFont(
                           'Inter',
                           fontSize: 12 * ffem,

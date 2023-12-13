@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter/gestures.dart';
 // import 'dart:ui';
 // import 'package:google_fonts/google_fonts.dart';
-import 'package:uasmobile_kelompok2/page-1/utils.dart';
+import 'package:uasmobile_kelompok2/utils.dart';
 // import 'package:myapp/page-1/dashboard-desktop.dart';
 // import 'package:myapp/page-1/dashboard-pembeli-mobile.dart';
 // import 'package:myapp/page-1/dashboard-penjual-mobile.dart';
@@ -16,7 +16,7 @@ import 'package:uasmobile_kelompok2/page-1/utils.dart';
 // import 'package:myapp/page-1/cart.dart';
 // import 'package:myapp/page-1/notification.dart';
 // import 'package:myapp/page-1/register-desktop.dart';
-import 'package:uasmobile_kelompok2/page-1/register-mobile.dart';
+import 'package:uasmobile_kelompok2/authentication/register-mobile.dart';
 // import 'package:myapp/page-1/tambah-barang.dart';
 // import 'package:myapp/page-1/edit-barang.dart';
 // import 'package:myapp/page-1/splash-screen.dart';
@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         body: SingleChildScrollView(
-          child: Scene(),
+          child: register(),
         ),
       ),
     );
