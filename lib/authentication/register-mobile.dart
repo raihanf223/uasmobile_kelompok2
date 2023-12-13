@@ -36,16 +36,20 @@ class register extends StatelessWidget {
                     // pelangganbaruEnH (21:7)
                     margin: EdgeInsets.fromLTRB(
                         0 * fem, 0 * fem, 103 * fem, 0 * fem),
-                    child: Text(
-                      'Pelanggan Baru',
-                      style: SafeGoogleFont(
-                        'Inter',
-                        fontSize: 12 * ffem,
-                        fontWeight: FontWeight.w400,
-                        height: 1.2125 * ffem / fem,
-                        decoration: TextDecoration.underline,
-                        color: Color(0xffffffff),
-                        decorationColor: Color(0xffffffff),
+                    child: TextButton(
+                      style: TextButton.styleFrom(
+                        textStyle: const TextStyle(fontSize: 12),
+                      ),
+                      onPressed: () {},
+                      child: Text(
+                        'Pelanggan Baru',
+                        style: SafeGoogleFont(
+                          'Inter',
+                          fontSize: 12 * ffem,
+                          fontWeight: FontWeight.w400,
+                          height: 1.2125 * ffem / fem,
+                          color: Color(0xffffffff),
+                        ),
                       ),
                     ),
                   ),
